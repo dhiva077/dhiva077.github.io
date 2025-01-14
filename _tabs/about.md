@@ -4,7 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
 
 Halo! Saya, Dhiva Kesuma Pertiwi, adalah seorang mahasiswi di Universitas Ciputra Makassar yang penuh semangat dan berdedikasi. Saya selalu berusaha memberikan yang terbaik dalam setiap tanggung jawab yang saya emban. Saya memiliki keahlian kuat dalam berorganisasi dan bekerja dalam tim, dengan kemampuan untuk mengelola dan menyelesaikan tantangan melalui solusi yang kreatif dan efektif. Dalam setiap kegiatan atau proyek yang saya ikuti, saya selalu berkomitmen untuk terus belajar dan berkembang, baik secara pribadi maupun profesional.
@@ -12,16 +11,16 @@ Halo! Saya, Dhiva Kesuma Pertiwi, adalah seorang mahasiswi di Universitas Ciputr
 
 Keberhasilan saya dalam memimpin tim, membuat keputusan strategis, dan mengelola berbagai kepanitiaan serta ekstrakurikuler menjadi bukti bahwa saya dapat memberikan kontribusi nyata dalam organisasi yang saya geluti. Dengan kemampuan yang terasah, saya berkomitmen untuk selalu beradaptasi dengan perubahan dan memberikan kontribusi terbaik bagi organisasi maupun kegiatan yang saya ikuti, dengan harapan dapat terus berkembang dan berkontribusi pada dunia yang lebih luas.
 
-# Pendidikan
+# School
 1. MA ARIFAH Gowa
 2. Universitas Ciputra Makassar
 
-# Keahlian
+# Skill
 1. Fotografi
 2. Videografi
 3. Kepemimpinan
 
-# Pengalaman
+# Experience
 Pengalaman Organisasi dan Kepemimpinan
 
 1. Ketua Ekstrakurikuler Photography MA Arifah Gowa (2022 - Agustus 2024).
@@ -55,6 +54,6 @@ Terlibat aktif dalam berbagai kegiatan sebagai panitia, termasuk perencanaan, pe
 11. Anggota Tim Media, FDU Islam UC Makassar (03 Oktober 2024 - Sekarang).
 Saat ini berkontribusi dalam penjangkauan media dan promosi untuk Organisasi Mahasiswa Islam di UC Makassar.
 
-# Kontak
+# Contact
 1. E-mail: dhivakesuma@gmail.com
 2. Instagram: @dhvprtwii
