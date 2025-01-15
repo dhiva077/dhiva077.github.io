@@ -59,6 +59,31 @@ _Kegiatan Pramuka_
 Gambar ini diambil menggunakan kamera DSLR atau mirrorless untuk memastikan kualitas visual yang tinggi, dengan pemilihan komposisi dan pencahayaan yang baik guna menangkap momen secara estetis. Pengeditan dilakukan menggunakan software seperti Adobe Lightroom atau Photoshop untuk meningkatkan kualitas warna, kecerahan, dan ketajaman gambar. Dokumentasi ini kemungkinan besar digunakan sebagai media promosi sekolah melalui platform seperti website resmi atau media sosial, mencerminkan kegiatan ekstrakurikuler yang penuh semangat dan disiplin.
 
 
+# Photography MA ARIFAH Gowa
+Ekstrakurikuler Fotografi MA Arifah Gowa "Mencetak Kenangan Lewat Lensa"
+
+Fotografi bagi saya bukan hanya sekadar mengabadikan momen, tetapi juga cara untuk melihat dunia dengan perspektif yang berbeda. Sebagai Ketua Ekstrakurikuler Fotografi di MA Arifah Gowa, saya merasa bangga memimpin tim yang penuh semangat dan kreativitas. Tugas kami tidak hanya menangkap gambar, tetapi juga menyusun berbagai kegiatan yang bertujuan untuk mengasah kemampuan teknis dan artistik anggota.
+![adamidham](/adam idham.JPEG){: width="300"}
+![adamidhamaul](/adam idham aul.JPG){: width="300"}
+
+![photography](/photography.jpg){: width="300"}
+![dipa](/dipaa.jpg){: width="300"}
+Kami rutin mengadakan pelatihan fotografi, mulai dari dasar hingga teknik lanjutan, serta memberikan kesempatan kepada semua anggota untuk mengaplikasikan ilmu yang mereka pelajari dalam dokumentasi acara-acara besar di sekolah. Dari acara olahraga, pentas seni, hingga kegiatan sosial—setiap momen kami abadikan dengan penuh perhatian dan profesionalisme.
+
+Bergabung di ekstrakurikuler ini tidak hanya membuat saya belajar tentang seni fotografi, tetapi juga tentang kerja tim, kepemimpinan, dan pengelolaan waktu. Di sini, kami saling berbagi inspirasi, tantangan, dan tentunya—kenangan yang tak terlupakan melalui setiap jepretan lensa kamera.
+
+#  Versailles
+Hari ini, kita mengucapkan selamat tinggal kepada Versailles—sebuah angkatan yang telah melalui banyak kenangan tak terlupakan. Momen penamatan ini bukan hanya tentang perpisahan, tapi juga tentang merayakan setiap usaha, tawa, dan persahabatan yang telah kita bangun bersama.
+
+Meski langkah kita berbeda sekarang, ikatan yang terjalin dalam angkatan Versailles akan tetap kuat, mengingatkan kita pada setiap pelajaran dan kenangan yang membawa kita sejauh ini. Teruslah melangkah dengan percaya diri, karena perjalanan baru menanti di depan!
+
+![versailles](/Versailles.jpg){: width="300"}
+![mama](/mama.jpg){: width="300"}
+
+Versailles, terima kasih telah menjadi bagian dari cerita ini. Semoga masa depan kita penuh dengan kesuksesan dan kebahagiaan! 🌟
+
+
+
 
 
 

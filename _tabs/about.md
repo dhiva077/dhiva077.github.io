@@ -6,54 +6,16 @@ order: 4
 
 {: .prompt-tip }
 
-Halo! Saya, Dhiva Kesuma Pertiwi, adalah seorang mahasiswi di Universitas Ciputra Makassar yang penuh semangat dan berdedikasi. Saya selalu berusaha memberikan yang terbaik dalam setiap tanggung jawab yang saya emban. Saya memiliki keahlian kuat dalam berorganisasi dan bekerja dalam tim, dengan kemampuan untuk mengelola dan menyelesaikan tantangan melalui solusi yang kreatif dan efektif. Dalam setiap kegiatan atau proyek yang saya ikuti, saya selalu berkomitmen untuk terus belajar dan berkembang, baik secara pribadi maupun profesional.
+Halo! Saya Dhiva Kesuma Pertiwi, seorang mahasiswi Informatika di Universitas Ciputra Makassar yang mendalami spesialisasi dalam bidang Artificial Intelligence (AI). Saya adalah pribadi yang penuh semangat dan berdedikasi, selalu berusaha memberikan yang terbaik dalam setiap tanggung jawab yang saya emban. Dengan minat mendalam pada teknologi dan kreativitas, saya percaya bahwa AI memiliki potensi besar untuk memberikan solusi inovatif bagi berbagai tantangan di dunia.
 
+Selain fokus pada teknologi, saya juga memiliki keahlian di bidang fotografi, videografi, dan kepemimpinan. Perjalanan organisasi saya dimulai sejak tahun 2022 di MA Arifah Gowa. Saat itu, saya menjabat sebagai Ketua Ekstrakurikuler Photography (2022 - Agustus 2024), memimpin tim dalam mendokumentasikan berbagai acara sekolah, mengadakan pelatihan rutin, dan merancang program kerja inspiratif.
 
-Keberhasilan saya dalam memimpin tim, membuat keputusan strategis, dan mengelola berbagai kepanitiaan serta ekstrakurikuler menjadi bukti bahwa saya dapat memberikan kontribusi nyata dalam organisasi yang saya geluti. Dengan kemampuan yang terasah, saya berkomitmen untuk selalu beradaptasi dengan perubahan dan memberikan kontribusi terbaik bagi organisasi maupun kegiatan yang saya ikuti, dengan harapan dapat terus berkembang dan berkontribusi pada dunia yang lebih luas.
+Saya juga dipercaya menjadi Koordinator Bidang Ilmu Pengetahuan OSIS (2022 - 2023), di mana saya menginisiasi berbagai kegiatan edukatif seperti seminar dan kompetisi untuk meningkatkan minat siswa di bidang sains. Selanjutnya, saya menjadi Koordinator Bidang Keamanan OSIS (2023 - 2024), memastikan keamanan dan keteraturan selama pelaksanaan kegiatan sekolah.
 
-# School
-1. MA ARIFAH Gowa
-2. Universitas Ciputra Makassar
+Pengalaman saya semakin beragam ketika saya menjabat sebagai Bendahara PMR WIRA (2022 - 2023), mengelola keuangan organisasi dan mendukung kegiatan sosial kemanusiaan. Pada tahun 2023, saya juga aktif sebagai Sekretaris Ekstrakurikuler Riset, mendokumentasikan hasil riset anggota, serta menyusun laporan kegiatan. Selain itu, sebagai Koordinator Event SainsClub di tahun yang sama, saya mengelola berbagai workshop dan kompetisi sains.
 
-# Skill
-1. Fotografi
-2. Videografi
-3. Kepemimpinan
+Di bidang media, saya menjadi Koordinator Media JurnalistikClub (2023), mengelola konten media dan dokumentasi kegiatan jurnalistik sekolah. Saya juga bergabung dalam Tim Media Yayasan Afifa Rifa Farhana (ARIFAH) (2023 - Mei 2024), membantu dokumentasi kegiatan yayasan dan mengelola konten media sosial. Salah satu pengalaman yang paling berkesan adalah saat saya menjabat sebagai Ketua Panitia Latihan Dasar Kepemimpinan (LDK) OSIS (2023), di mana saya memimpin pelaksanaan pelatihan bagi calon pengurus OSIS.
 
-# Experience
-Pengalaman Organisasi dan Kepemimpinan
+Sejak tahun 2021, saya selalu aktif terlibat dalam berbagai kepanitiaan besar di sekolah, mulai dari tahap perencanaan hingga evaluasi. Saat ini, saya terus mengembangkan diri di bidang teknologi dan media sebagai anggota Tim Media FDU Islam UC Makassar (Oktober 2024 - sekarang), berkontribusi dalam promosi dan komunikasi organisasi mahasiswa Islam.
 
-1. Ketua Ekstrakurikuler Photography MA Arifah Gowa (2022 - Agustus 2024).
-Mengelola program kerja ekstrakurikuler, mengadakan pelatihan rutin, dan memimpin tim dalam dokumentasi berbagai acara sekolah.
-2. Koordinator Bidang Ilmu Pengetahuan OSIS
-MA Arifah Gowa (2022 - 2023).
-Menginisiasi dan melaksanakan kegiatan edukatif seperti seminar dan kompetisi untuk meningkatkan minat siswa di bidang sains dan pengetahuan.
-3. Koordinator Bidang Keamanan OSIS
-MA Arifah Gowa (2023 - 2024).
-Memastikan keamanan dan keteraturan selama pelaksanaan kegiatan sekolah, serta mengelola tim keamanan dalam berbagai acara.
-4. Bendahara PMR WIRA
-MA Arifah Gowa (2022 - 2023).
-Bertanggung jawab atas pengelolaan keuangan organisasi, pembuatan laporan keuangan, dan pendanaan kegiatan sosial kemanusiaan.
-5. Sekretaris Ekstrakurikuler Riset
-MA Arifah Gowa (2023).
-Menyusun laporan kegiatan, mendokumentasikan hasil riset anggota, serta membantu koordinasi program riset.
-6. Koordinator Event SainsClub
-MA Arifah Gowa (2023).
-Menyusun dan mengoordinasikan pelaksanaan berbagai acara edukatif, seperti workshop dan kompetisi sains.
-7. Koordinator Media JurnalistikClub
-MA Arifah Gowa (2023).
-Mengelola konten media dan dokumentasi kegiatan klub jurnalistik, termasuk penerbitan buletin sekolah.
-8. Tim Media Yayasan Afifa Rifa Farhana (ARIFAH) 2023 - Mei 2024
-Berperan dalam mendokumentasikan kegiatan yayasan, mengelola konten media sosial, dan menyampaikan informasi kepada publik.
-9. Ketua Panitia LDK OSIS
-MA Arifah Gowa (2023).
-Memimpin dan mengoordinasikan panitia dalam pelaksanaan Latihan Dasar Kepemimpinan (LDK) untuk calon pengurus OSIS.
-10. Anggota Aktif Kepanitiaan Kegiatan Sekolah
-MA Arifah Gowa (Agustus 2021 - Mei 2024).
-Terlibat aktif dalam berbagai kegiatan sebagai panitia, termasuk perencanaan, pelaksanaan, dan evaluasi acara besar sekolah.
-11. Anggota Tim Media, FDU Islam UC Makassar (03 Oktober 2024 - Sekarang).
-Saat ini berkontribusi dalam penjangkauan media dan promosi untuk Organisasi Mahasiswa Islam di UC Makassar.
-
-# Contact
-1. E-mail: dhivakesuma@gmail.com
-2. Instagram: @dhvprtwii
+Jika Anda ingin berdiskusi lebih jauh atau menjalin kolaborasi, silakan hubungi saya melalui email di dhivakesuma@gmail.com atau temukan saya di Instagram @dhvprtwii. Dengan semangat belajar dan berinovasi, saya berharap dapat terus tumbuh dan memberikan kontribusi nyata bagi dunia yang lebih luas.
