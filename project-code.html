@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code Projects - Dhiva Kesuma Pertiwi</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    pre code {
+      font-family: 'Fira Code', monospace;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    pre::-webkit-scrollbar {
+      height: 6px;
+    }
+    pre::-webkit-scrollbar-thumb {
+      background-color: #000000;
+      border-radius: 3px;
+    }
+
+    /* Active tab style */
+    .active-tab {
+      border-bottom: 3px solid #504944; /* Tailwind blue-500 */
+      color: #504944;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body class="bg-white dark:bg-[#ECE7E1] text-gray-900 dark:text-gray-200 font-sans min-h-screen">
+
+  <div class="max-w-5xl mx-auto px-6 py-12">
+
+    <!-- Back Button -->
+    <div class="mb-8">
+      <a href="webpro.html" class="text-black dark:text-black hover:underline font-medium inline-flex items-center gap-1">
+        &larr; Back to Projects
+      </a>
+    </div>
+
+    <!-- Title -->
+    <header class="mb-10 text-center">
+      <h1 class="text-4xl text-black tracking-tight mb-2">🛠️ Code Projects</h1>
+      <p class="text-black dark:text-black max-w-xl mx-auto">
+        Koleksi proyek coding yang saya buat, lengkap dengan screenshot dan contoh kodenya.
+      </p>
+    </header>
+
+    <!-- Tabs -->
+    <div class="flex justify-center mb-10 border-b border-gray-300 dark:border-gray-600">
+      <button id="tab1-btn" class="px-6 py-3 text-lg font-medium active-tab" onclick="showTab(1)">Python</button>
+      <button id="tab2-btn" class="px-6 py-3 text-lg font-medium text-black dark:text-black hover:text-[#504944]" onclick="showTab(2)">Web</button>
+      <button id="tab3-btn" class="px-6 py-3 text-lg font-medium text-black dark:text-black hover:text-[#504944]" onclick="showTab(3)">Java</button>
+    </div>
+
+    <!-- Projects Content -->
+    <section>
+
+      <!-- Project Python -->
+      <article id="tab1" class="space-y-8">
+        <h2 class="text-2xl text-black font-semibold mb-4">🎲 Tebak Angka (Python)</h2>
+        <p class="text-white dark:text-black max-w-3xl mx-auto">
+            Game Pembelajaran Matematika (Penjumlahan dan Pengurangan)
+
+            Proyek ini adalah sebuah game edukasi sederhana yang saya buat menggunakan bahasa pemrograman Python. Game ini dirancang untuk membantu pemain, khususnya anak-anak atau pemula, belajar dan berlatih operasi dasar matematika seperti penjumlahan dan pengurangan.
+            
+            Di dalam game ini, pemain akan diberikan soal matematika secara acak yang harus diselesaikan. Setiap jawaban yang benar akan memberi poin dan membawa pemain ke level yang lebih tinggi, menambah keseruan dan tantangan. Konsep gamifikasi ini bertujuan untuk membuat pembelajaran matematika menjadi lebih menyenangkan dan interaktif.
+            
+            Proyek ini adalah langkah pertama saya dalam menciptakan game berbasis edukasi dan aplikasi dunia nyata menggunakan bahasa pemrograman Python.
+        </p>
+        <pre class="bg-[#504944] text-white rounded-lg p-6 overflow-x-auto shadow-lg max-w-3xl mx-auto">
+<code>import random  # Mengimpor modul random untuk menghasilkan angka acak
+
+    # Menyambut pemain ke dalam permainan
+    print("Selamat datang di Game Kuis Matematika!")
+    print("Jawab dengan benar untuk mendapatkan skor. Jika salah, nyawa akan berkurang!")
+    
+    score = 0  # Skor awal pemain dimulai dari 0
+    lives = 3  # Jumlah nyawa awal pemain
+    
+    # Memulai loop permainan, akan berlanjut selama nyawa pemain masih ada
+    while lives > 0:
+        # Membuat soal matematika acak (penjumlahan atau pengurangan)
+        num1 = random.randint(1, 10)  # Menghasilkan angka acak pertama antara 1 sampai 10
+        num2 = random.randint(1, 10)  # Menghasilkan angka acak kedua antara 1 sampai 10
+        operasi = random.choice(["+", "-"])  # Memilih operasi acak antara "+" atau "-"
+    
+        # Menentukan jawaban yang benar berdasarkan operasi yang dipilih
+        if operasi == "+":
+            jawaban_benar = num1 + num2  # Jika operasi adalah "+", hitung penjumlahan
+        else:
+            jawaban_benar = num1 - num2  # Jika operasi adalah "-", hitung pengurangan
+    
+        # Menampilkan soal kepada pemain
+        print(f"Apa hasil dari {num1} {operasi} {num2}?")
+        try:
+            # Menerima jawaban dari pemain 
+            jawaban_pemain = int(input("Jawabanmu: "))
+        except ValueError:
+            # Jika input bukan angka, tampilkan pesan dan lanjutkan ke soal berikutnya
+            print("Masukkan angka yang valid!")
+            continue
+    
+        # Memeriksa jawaban pemain apakah sesuai dengan jawaban yang benar
+        if jawaban_pemain == jawaban_benar:
+            score += 1  # Jika benar, tambahkan 1 ke skor
+            print(f"Benar! Skormu sekarang: {score}")
+        else:
+            lives -= 1  # Jika salah, kurangi nyawa pemain sebanyak 1
+            print(f"Salah! Jawaban yang benar adalah {jawaban_benar}.")
+            print(f"Nyawamu sekarang: {lives}")
+    
+    # Jika nyawa pemain habis, permainan berakhir dan skor akhir ditampilkan
+    if lives == 0:
+        print(f"Permainan berakhir. Skor akhir kamu: {score}")
+    
+    # Mengucapkan terima kasih kepada pemain setelah permainan selesai
+    print("Terima kasih sudah bermain!")
+</code></pre>
+        <div class="text-center">
+          <a href="https://github.com/username/tebak-angka" target="_blank"
+            class="inline-block bg-[#504944] hover:bg-[#BBAEA5] text-white font-semibold rounded-lg px-6 py-3 transition">
+            Lihat di GitHub
+          </a>
+        </div>
+      </article>
+
+      <!-- Project Web -->
+      <article id="tab2" class="hidden space-y-8">
+        <h2 class="text-2xl font-semibold mb-4">🐾 MeowCare Website (HTML + Tailwind)</h2>
+        <p class="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+          Website donasi dan edukasi untuk kucing jalanan yang dibuat dengan HTML dan Tailwind CSS.
+        </p>
+        <img src="proyek website.png" alt="MeowCare Screenshot" class="mx-auto max-w-md w-full rounded shadow" />
+        <pre class="bg-[#504944] text-white rounded-lg p-6 overflow-x-auto shadow-lg max-w-3xl mx-auto">
+            <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="id"&gt;
+            &lt;head&gt;
+                &lt;meta charset=&quot;UTF-8&quot;&gt;
+                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                &lt;title&gt;MeowCare&lt;/title&gt;
+                &lt;link rel=&quot;preload&quot; href=&quot;home page.png&quot; as=&quot;image&quot;&gt;
+                &lt;style&gt;
+                    body {
+                        font-family: italic;
+                        margin: 0;
+                        padding: 0;
+                        background-color: #49668b; 
+                    }
+            
+                    .header {
+                        background-color: #f8f8f8; 
+                        padding: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+            
+                    .logo {
+                        display: flex;
+                        align-items: center;
+                    }
+            
+                    .logo img {
+                        width: 90px; 
+                        height:90px;
+                        border-radius: 50%; 
+                        margin-right: 15px;
+                    }
+            
+                    .logo h1 { 
+                        font-size: 24px; 
+                        color: #333; 
+                        font-family: italic; 
+                        font-weight: normal; 
+                        font-style: normal; 
+                    }
+            
+                    .navigation ul {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        display: flex;
+                    }
+            
+                    .navigation li {
+                        margin-left: 20px;
+                    }
+            
+                    .navigation a {
+                        text-decoration: none;
+                        color: #333; 
+                        padding: 10px 10px;
+                        border-radius: 10px;
+                        background-color: whitesmoke;
+                        display: block;
+                    }
+            
+                    .navigation a:hover {
+                        background-color: #49668b;
+                        color: white;
+                    }
+            
+                    .hero {
+                        background-color: #49668b;
+                        color: white;
+                        padding: 50px;
+                        display: flex;
+                        align-items: center;
+                        min-height: 400px; 
+                    }
+            
+                    .hero-image {
+                        flex-shrink: 0; 
+                        margin-right: 20px; 
+                    }
+            
+                    .hero-image img {
+                        max-width: 1000px; 
+                        height: auto;
+                        border-radius: 10px;
+                    }
+            
+                    .hero-text {
+                        text-align: left;
+                        flex-grow: 5; 
+                    }
+            
+                    .hero-text h2 {
+                        font-family: italic;
+                        font-style: italic;
+                        font-size: 24px;
+                        margin-bottom: 10px;
+                        color: #e5e5e5;
+                    }
+            
+                    .hero-text p {
+                        font-family: italic;
+                        font-size: 24px;
+                        font-style: italic;
+                        color: #e5e5e5;
+                    }
+            
+                    @media (max-width: 768px) {
+                        .header {
+                            flex-direction: column;
+                            align-items: flex-start;
+                        }
+            
+                        .logo {
+                            margin-bottom: 10px;
+                        }
+            
+                        .navigation ul {
+                            flex-direction: column;
+                            width: 100%;
+                        }
+            
+                        .navigation li {
+                            margin-left: 0;
+                            margin-bottom: 5px;
+                        }
+            
+                        .navigation a {
+                            width: 100%;
+                        }
+            
+                        .hero {
+                            flex-direction: column;
+                            text-align: center;
+                            min-height: auto; 
+                        }
+            
+                        .hero-image {
+                            margin-right: 0;
+                            margin-bottom: 20px;
+                        }
+            
+                        .hero-text {
+                            text-align: center;
+                        }
+                    }
+            
+                    @media (max-width: 480px) {
+                        .logo img {
+                            width: 70px;
+                            height: 70px;
+                        }
+            
+                        .hero-text h2,
+                        .hero-text p {
+                            font-size: 18px;
+                        }
+            
+                        .hero {
+                            padding: 30px;
+                        }
+            
+                        .navigation a {
+                            font-size: 14px;
+                            padding: 8px;
+                        }
+                    }
+                &lt;/style&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;div class=&quot;header&quot;&gt;
+                    &lt;div class=&quot;logo&quot;&gt;
+                        &lt;img src=&quot;logo.jpg&quot; alt=&quot;Logo MeowCare&quot;&gt;
+                        &lt;h1&gt;MeowCare&lt;/h1&gt;
+                    &lt;/div&gt;
+                    &lt;nav class=&quot;navigation&quot;&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href=&quot;homepage.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;donasi.html&quot;&gt;Donasi&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;adopsi.html&quot;&gt;Adopsi&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;edukasi.html&quot;&gt;Edukasi&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a href=&quot;aboutMe.html&quot;&gt;About Me&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/nav&gt;
+                &lt;/div&gt;
+            
+                &lt;div class=&quot;hero&quot;&gt;
+                    &lt;div class=&quot;hero-text&quot;&gt;
+                        &lt;h2&gt;&quot;Ulurkan Tanganmu!&lt;/h2&gt;
+                        &lt;p&gt;Yuk, bantu kucing jalanan bertahan hidup&quot;&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;hero-image&quot;&gt;
+                        &lt;img src=&quot;home page.png&quot; alt=&quot;Gambar Kucing&quot;&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+            </code>
+            </pre>            
+        <div class="text-center">
+          <a href="https://github.com/username/meowcare" target="_blank"
+            class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg px-6 py-3 transition">
+            Lihat di GitHub
+          </a>
+        </div>
+      </article>
+
+      <!-- Project Java -->
+      <article id="tab3" class="hidden space-y-8">
+        <h2 class="text-2xl font-semibold mb-4">🃏 Character Card App (Java Swing)</h2>
+        <p class="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+          Aplikasi GUI menampilkan karakter dalam tampilan kartu menggunakan Java Swing.
+        </p>
+        <img src="img/output-java.png" alt="Java Output" class="mx-auto max-w-md w-full rounded shadow" />
+        <pre class="bg-gray-900 text-white rounded-lg p-6 overflow-x-auto shadow-lg max-w-3xl mx-auto">
+<code>// Contoh kode Java di sini
+public class CharacterCard {
+    private String name;
+    private String description;
+
+    public CharacterCard(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
+    // getter dan setter...
+}
+</code></pre>
+      </article>
+
+    </section>
+
+  </div>
+
+  <script>
+    function showTab(tabNumber) {
+      const tabs = [1, 2, 3];
+      tabs.forEach((num) => {
+        document.getElementById('tab' + num).classList.toggle('hidden', num !== tabNumber);
+        document.getElementById('tab' + num + '-btn').classList.toggle('active-tab', num === tabNumber);
+        if (num === tabNumber) {
+          document.getElementById('tab' + num + '-btn').classList.remove('text-gray-500','dark:text-gray-400','hover:text-[#BBAEA5]');
+        } else {
+          document.getElementById('tab' + num + '-btn').classList.add('text-gray-500','dark:text-gray-400','hover:text-[#BBAEA5]');
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
