@@ -45,14 +45,10 @@
 <body class="bg-white dark:bg-[#ECE7E1] text-gray-900 dark:text-gray-200 font-sans min-h-screen">
 
   <div class="max-w-5xl mx-auto px-6 py-12">
-
     <!-- Back Button -->
     <div class="mb-8">
-      <a href="webpro.html" class="text-black dark:text-black hover:underline font-medium inline-flex items-center gap-1">
-        &larr; Back to Projects
-      </a>
+      <a href="index.html" class="text-black dark:text-black hover:underline font-medium inline-flex items-center gap-1">&larr; Back to Projects</a>
     </div>
-
     <!-- Title -->
     <header class="mb-10 text-center">
       <h1 class="text-4xl text-black tracking-tight mb-2">🛠️ Code Projects</h1>
@@ -73,15 +69,15 @@
 
       <!-- Project Python -->
       <article id="tab1" class="space-y-8">
-        <h2 class="text-2xl text-black font-semibold mb-4">🎲 Tebak Angka (Python)</h2>
+        <h2 class="text-2xl text-black font-semibold mb-4">🎲 GuessTheNumber</h2>
         <p class="text-white dark:text-black max-w-3xl mx-auto">
-            Game Pembelajaran Matematika (Penjumlahan dan Pengurangan)
+          Math Learning Game (Addition and Subtraction)
 
-            Proyek ini adalah sebuah game edukasi sederhana yang saya buat menggunakan bahasa pemrograman Python. Game ini dirancang untuk membantu pemain, khususnya anak-anak atau pemula, belajar dan berlatih operasi dasar matematika seperti penjumlahan dan pengurangan.
-            
-            Di dalam game ini, pemain akan diberikan soal matematika secara acak yang harus diselesaikan. Setiap jawaban yang benar akan memberi poin dan membawa pemain ke level yang lebih tinggi, menambah keseruan dan tantangan. Konsep gamifikasi ini bertujuan untuk membuat pembelajaran matematika menjadi lebih menyenangkan dan interaktif.
-            
-            Proyek ini adalah langkah pertama saya dalam menciptakan game berbasis edukasi dan aplikasi dunia nyata menggunakan bahasa pemrograman Python.
+          This project is a simple educational game that I created using the Python programming language. This game is designed to help players, especially children or beginners, learn and practice basic math operations such as addition and subtraction.
+          
+          In this game, players will be given random math problems to solve. Each correct answer will earn points and take the player to a higher level, adding to the excitement and challenge. This gamification concept aims to make learning math more fun and interactive.
+          
+          This project is my first step in creating education-based games and real-world applications using the Python programming language.
         </p>
         <pre class="bg-[#504944] text-white rounded-lg p-6 overflow-x-auto shadow-lg max-w-3xl mx-auto">
 <code>import random  # Mengimpor modul random untuk menghasilkan angka acak
@@ -133,7 +129,7 @@
     print("Terima kasih sudah bermain!")
 </code></pre>
         <div class="text-center">
-          <a href="https://github.com/username/tebak-angka" target="_blank"
+          <a href="https://github.com/dhiva077/GuessTheNumber/tree/main" target="_blank"
             class="inline-block bg-[#504944] hover:bg-[#BBAEA5] text-white font-semibold rounded-lg px-6 py-3 transition">
             Lihat di GitHub
           </a>
@@ -142,216 +138,27 @@
 
       <!-- Project Web -->
       <article id="tab2" class="hidden space-y-8">
-        <h2 class="text-2xl font-semibold mb-4">🐾 MeowCare Website (HTML + Tailwind)</h2>
-        <p class="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-          Website donasi dan edukasi untuk kucing jalanan yang dibuat dengan HTML dan Tailwind CSS.
+        <h2 class="text-2xl text-black font-semibold mb-4">🐾 MeowCare Website (HTML Boostrap)</h2>
+        <p class="text-white dark:text-black max-w-3xl mx-auto">
+          A donation and education website for street cats made with HTML and Tailwind CSS.
+          As a cat lover, I feel concerned about the condition of street cats that are often neglected, sick, and continue to increase in population due to lack of sterilization. Therefore, I created MeowCare as a platform to invite street feeders and other cat lovers to contribute through donations. With this help, we can together provide better treatment, sterilization, and care for street cats, so that they can live healthier and more prosperous lives.
+
+          With Meow Care, I hope more people will care about the welfare of street cats and together we can give them a better life.
         </p>
-        <img src="proyek website.png" alt="MeowCare Screenshot" class="mx-auto max-w-md w-full rounded shadow" />
-        <pre class="bg-[#504944] text-white rounded-lg p-6 overflow-x-auto shadow-lg max-w-3xl mx-auto">
-            <code>
-            &lt;!DOCTYPE html&gt;
-            &lt;html lang="id"&gt;
-            &lt;head&gt;
-                &lt;meta charset=&quot;UTF-8&quot;&gt;
-                &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-                &lt;title&gt;MeowCare&lt;/title&gt;
-                &lt;link rel=&quot;preload&quot; href=&quot;home page.png&quot; as=&quot;image&quot;&gt;
-                &lt;style&gt;
-                    body {
-                        font-family: italic;
-                        margin: 0;
-                        padding: 0;
-                        background-color: #49668b; 
-                    }
-            
-                    .header {
-                        background-color: #f8f8f8; 
-                        padding: 10px;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                    }
-            
-                    .logo {
-                        display: flex;
-                        align-items: center;
-                    }
-            
-                    .logo img {
-                        width: 90px; 
-                        height:90px;
-                        border-radius: 50%; 
-                        margin-right: 15px;
-                    }
-            
-                    .logo h1 { 
-                        font-size: 24px; 
-                        color: #333; 
-                        font-family: italic; 
-                        font-weight: normal; 
-                        font-style: normal; 
-                    }
-            
-                    .navigation ul {
-                        list-style: none;
-                        padding: 0;
-                        margin: 0;
-                        display: flex;
-                    }
-            
-                    .navigation li {
-                        margin-left: 20px;
-                    }
-            
-                    .navigation a {
-                        text-decoration: none;
-                        color: #333; 
-                        padding: 10px 10px;
-                        border-radius: 10px;
-                        background-color: whitesmoke;
-                        display: block;
-                    }
-            
-                    .navigation a:hover {
-                        background-color: #49668b;
-                        color: white;
-                    }
-            
-                    .hero {
-                        background-color: #49668b;
-                        color: white;
-                        padding: 50px;
-                        display: flex;
-                        align-items: center;
-                        min-height: 400px; 
-                    }
-            
-                    .hero-image {
-                        flex-shrink: 0; 
-                        margin-right: 20px; 
-                    }
-            
-                    .hero-image img {
-                        max-width: 1000px; 
-                        height: auto;
-                        border-radius: 10px;
-                    }
-            
-                    .hero-text {
-                        text-align: left;
-                        flex-grow: 5; 
-                    }
-            
-                    .hero-text h2 {
-                        font-family: italic;
-                        font-style: italic;
-                        font-size: 24px;
-                        margin-bottom: 10px;
-                        color: #e5e5e5;
-                    }
-            
-                    .hero-text p {
-                        font-family: italic;
-                        font-size: 24px;
-                        font-style: italic;
-                        color: #e5e5e5;
-                    }
-            
-                    @media (max-width: 768px) {
-                        .header {
-                            flex-direction: column;
-                            align-items: flex-start;
-                        }
-            
-                        .logo {
-                            margin-bottom: 10px;
-                        }
-            
-                        .navigation ul {
-                            flex-direction: column;
-                            width: 100%;
-                        }
-            
-                        .navigation li {
-                            margin-left: 0;
-                            margin-bottom: 5px;
-                        }
-            
-                        .navigation a {
-                            width: 100%;
-                        }
-            
-                        .hero {
-                            flex-direction: column;
-                            text-align: center;
-                            min-height: auto; 
-                        }
-            
-                        .hero-image {
-                            margin-right: 0;
-                            margin-bottom: 20px;
-                        }
-            
-                        .hero-text {
-                            text-align: center;
-                        }
-                    }
-            
-                    @media (max-width: 480px) {
-                        .logo img {
-                            width: 70px;
-                            height: 70px;
-                        }
-            
-                        .hero-text h2,
-                        .hero-text p {
-                            font-size: 18px;
-                        }
-            
-                        .hero {
-                            padding: 30px;
-                        }
-            
-                        .navigation a {
-                            font-size: 14px;
-                            padding: 8px;
-                        }
-                    }
-                &lt;/style&gt;
-            &lt;/head&gt;
-            &lt;body&gt;
-                &lt;div class=&quot;header&quot;&gt;
-                    &lt;div class=&quot;logo&quot;&gt;
-                        &lt;img src=&quot;logo.jpg&quot; alt=&quot;Logo MeowCare&quot;&gt;
-                        &lt;h1&gt;MeowCare&lt;/h1&gt;
-                    &lt;/div&gt;
-                    &lt;nav class=&quot;navigation&quot;&gt;
-                        &lt;ul&gt;
-                            &lt;li&gt;&lt;a href=&quot;homepage.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-                            &lt;li&gt;&lt;a href=&quot;donasi.html&quot;&gt;Donasi&lt;/a&gt;&lt;/li&gt;
-                            &lt;li&gt;&lt;a href=&quot;adopsi.html&quot;&gt;Adopsi&lt;/a&gt;&lt;/li&gt;
-                            &lt;li&gt;&lt;a href=&quot;edukasi.html&quot;&gt;Edukasi&lt;/a&gt;&lt;/li&gt;
-                            &lt;li&gt;&lt;a href=&quot;aboutMe.html&quot;&gt;About Me&lt;/a&gt;&lt;/li&gt;
-                        &lt;/ul&gt;
-                    &lt;/nav&gt;
-                &lt;/div&gt;
-            
-                &lt;div class=&quot;hero&quot;&gt;
-                    &lt;div class=&quot;hero-text&quot;&gt;
-                        &lt;h2&gt;&quot;Ulurkan Tanganmu!&lt;/h2&gt;
-                        &lt;p&gt;Yuk, bantu kucing jalanan bertahan hidup&quot;&lt;/p&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&quot;hero-image&quot;&gt;
-                        &lt;img src=&quot;home page.png&quot; alt=&quot;Gambar Kucing&quot;&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/body&gt;
-            &lt;/html&gt;
-            </code>
-            </pre>            
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="web homepage.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+          <img src="web donasi.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+          <img src="web transaksi.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+          <img src="web adopsi.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+          <img src="web syarat ketentuan.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+          <img src="web formulir adopsi 1.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+          <img src="web formulir adopsi 2.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+          <img src="web edukasi.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+          <img src="web aboutme.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+        </div>            
         <div class="text-center">
-          <a href="https://github.com/username/meowcare" target="_blank"
-            class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg px-6 py-3 transition">
+          <a href="https://github.com/dhiva077/GuessTheNumber/tree/main" target="_blank"
+            class="inline-block bg-[#504944] hover:bg-[#BBAEA5] text-white font-semibold rounded-lg px-6 py-3 transition">
             Lihat di GitHub
           </a>
         </div>
@@ -359,30 +166,26 @@
 
       <!-- Project Java -->
       <article id="tab3" class="hidden space-y-8">
-        <h2 class="text-2xl font-semibold mb-4">🃏 Character Card App (Java Swing)</h2>
-        <p class="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-          Aplikasi GUI menampilkan karakter dalam tampilan kartu menggunakan Java Swing.
+        <h2 class="text-2xl text-black font-semibold mb-4">🃏 Character Card App (Java Swing)</h2>
+        <p class="text-white dark:text-black max-w-3xl mx-auto">
+          This interactive GUI application built using Java Swing displays various cat breeds and characters in a neat and responsive card layout format.
+          Each card displays the cat's picture and name, and features interactive pop-ups when the card is clicked to display more information.
+          The interface also features navigation sidebars to various thematic panels such as MeowBase, Cat Celebrities, MeowSignals and Cat Wellness, making exploration more exciting and fun for cat lovers.
         </p>
-        <img src="img/output-java.png" alt="Java Output" class="mx-auto max-w-md w-full rounded shadow" />
-        <pre class="bg-gray-900 text-white rounded-lg p-6 overflow-x-auto shadow-lg max-w-3xl mx-auto">
-<code>// Contoh kode Java di sini
-public class CharacterCard {
-    private String name;
-    private String description;
-
-    public CharacterCard(String name, String description) {
-        this.name = name;
-        this.description = description;
-    }
-    // getter dan setter...
-}
-</code></pre>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <img src="java 1.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+          <img src="java 2.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+          <img src="java 3.png" alt="MeowCare Screenshot" class="w-full rounded shadow" />
+        </div>
+        <div class="text-center">
+          <a href="https://github.com/dhiva077/JavaSwing" target="_blank"
+            class="inline-block bg-[#504944] hover:bg-[#BBAEA5] text-white font-semibold rounded-lg px-6 py-3 transition">
+            Lihat di GitHub
+          </a>
+        </div>
       </article>
-
     </section>
-
   </div>
-
   <script>
     function showTab(tabNumber) {
       const tabs = [1, 2, 3];
@@ -397,6 +200,5 @@ public class CharacterCard {
       });
     }
   </script>
-
 </body>
 </html>
